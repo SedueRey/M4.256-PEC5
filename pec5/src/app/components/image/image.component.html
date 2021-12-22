@@ -1,0 +1,13 @@
+<div *ngIf="image">
+  <dl>
+    <dd>Identifier</dd>
+    <dt>{{ image.id }}</dt>
+    <dd>Author</dd>
+    <dt>{{ image.author }}</dt>
+    <dd>Size</dd>
+    <dt>{{ image.width }} x {{ image.height }}</dt>
+    <dd>Url</dd>
+    <dt>{{ image.url }}</dt>
+  </dl>
+  <img style="display:block; max-width: 100%" src="{{ image.download_url }}" alt="{{ image.author }}" />
+</div>

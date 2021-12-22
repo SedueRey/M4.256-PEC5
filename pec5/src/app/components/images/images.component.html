@@ -1,0 +1,10 @@
+<div class="">
+  <h1>Images</h1>
+  <ul>
+    <li *ngFor="let image of images">
+      <a [routerLink]="['/image', image.id]">
+        {{ image.id }} - {{ image.author }}
+      </a>
+    </li>
+  </ul>
+</div>
