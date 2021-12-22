@@ -1,9 +1,9 @@
 {
-  "name": "pec5",
-  "short_name": "pec5",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
-  "display": "standalone",
+  "name": "Práctica 5 M4.256 UOC",
+  "short_name": "PEC5",
+  "theme_color": "#424242",
+  "background_color": "#ffffff",
+  "display": "minimal-ui",
   "scope": "./",
   "start_url": "./",
   "icons": [
