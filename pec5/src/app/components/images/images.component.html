@@ -1,10 +1,12 @@
-<div class="">
-  <h1>Images</h1>
-  <ul>
-    <li *ngFor="let image of images">
-      <a [routerLink]="['/image', image.id]">
-        {{ image.id }} - {{ image.author }}
-      </a>
-    </li>
-  </ul>
+<aside *ngIf="showLoading()" class="completespinner">
+  <mat-spinner></mat-spinner>
+</aside>
+<div class="container">
+  <mat-card class="mat-card" *ngFor="let image of images"
+    [@slideInOut]
+    [routerLink]="['/image', image.id]"
+  >
+    <mat-card-title>{{ image.author }}</mat-card-title>
+    <mat-card-subtitle>{{ image.width }}px largo y {{ image.height }}px de ancho</mat-card-subtitle>
+  </mat-card>
 </div>
