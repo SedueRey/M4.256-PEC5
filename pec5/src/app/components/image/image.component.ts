@@ -11,6 +11,7 @@ import { Image } from 'src/app/models/image.interface';
 export class ImageComponent implements OnInit {
 
   image: Image;
+  showDetails:boolean = false;
 
   constructor(
     private imagesService: ImagesService,
@@ -28,6 +29,10 @@ export class ImageComponent implements OnInit {
 
       this.image = image;
     });
+  }
+
+  toggleDetail() {
+    this.showDetails = !this.showDetails;
   }
 
 }

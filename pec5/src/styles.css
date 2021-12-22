@@ -28,3 +28,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   justify-content: center;
   z-index: 100;
 }
+
+.mat-tab-labels {
+  background-color: #134c30;
+}
+
+.image-detail-img {
+  display: block;
+  max-width: 80%;
+  margin: 1rem auto;
+}
+
+.image-detail-tabs {
+  padding: 1rem;
+}
