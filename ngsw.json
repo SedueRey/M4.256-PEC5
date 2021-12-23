@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1640199450470,
-  "index": "/index.html",
+  "timestamp": 1640248551812,
+  "index": "https://seduerey.github.io/M4.256-PEC5/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,15 +11,18 @@
         "ignoreVary": true
       },
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main.db529c6f4ab56219b226.js",
-        "/manifest.webmanifest",
-        "/polyfills.94daefd414b8355106ab.js",
-        "/runtime.7b63b9fd40098a2e8207.js",
-        "/styles.64c17303a3986e3c5a24.css"
+        "https://seduerey.github.io/M4.256-PEC5/favicon.ico",
+        "https://seduerey.github.io/M4.256-PEC5/index.html",
+        "https://seduerey.github.io/M4.256-PEC5/main.c1ab0235b1bf64f495ec.js",
+        "https://seduerey.github.io/M4.256-PEC5/manifest.webmanifest",
+        "https://seduerey.github.io/M4.256-PEC5/polyfills.94daefd414b8355106ab.js",
+        "https://seduerey.github.io/M4.256-PEC5/runtime.7b63b9fd40098a2e8207.js",
+        "https://seduerey.github.io/M4.256-PEC5/styles.64c17303a3986e3c5a24.css"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css2\\?family=Roboto:wght@300;400;500&display=swap",
+        "https:\\/\\/fonts\\.googleapis\\.com\\/icon\\?family=Material\\+Icons"
+      ]
     },
     {
       "name": "assets",
@@ -29,14 +32,24 @@
         "ignoreVary": true
       },
       "urls": [
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-114x114.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-120x120.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-144x144.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-152x152.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-180x180.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-57x57.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-72x72.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-76x76.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/favicon.ico",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-128x128.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-144x144.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-152x152.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-192x192.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-384x384.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-512x512.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-72x72.png",
+        "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
@@ -58,21 +71,31 @@
     }
   ],
   "hashTable": {
-    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "da8acc7cf2ad763ee81c508777eede122dc8ad5c",
-    "/main.db529c6f4ab56219b226.js": "e6efef2c3da975dc43250d6b90cc5e09964d61df",
-    "/manifest.webmanifest": "2fa9975fb2e15b38b0e5c635eed5eedbd0b959f9",
-    "/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
-    "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/styles.64c17303a3986e3c5a24.css": "1489ea36dff1ed8e80408b85d88911a397606953"
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-114x114.png": "a39e0b3c1614a3adc2a6e285ce70943566b9ac48",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-120x120.png": "0969869655b1d00a3832c5e4dde161ca1319781a",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-144x144.png": "afe0aa5112f68b9086e38e60bda2a8df98230aa4",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-152x152.png": "eb42b34ea7a6ce5630b4097cfb525fd85281e475",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-180x180.png": "496f7fd9a6ddf81d60aaef5ac41169b76dd1e2a8",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-57x57.png": "66e50bfcada32f364a4bff769fb14be38aa13589",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-72x72.png": "b7397998eadcddd01e09e59897e1cb390cc35274",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon-76x76.png": "82f0ee82497f968590623436d54eeca2e78b6320",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/apple-touch-icon.png": "66e50bfcada32f364a4bff769fb14be38aa13589",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/favicon.ico": "248d0b4a846458ee102fef46b3db35bf92b3f129",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-128x128.png": "2953493177941d30a2fe952e35ce4f2bb7e61b0f",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-144x144.png": "bb723151b9af72532dec7d6a2e18924758e76a04",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-152x152.png": "822e7868e824313040fa6c2d1634c00e123fc2fb",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-192x192.png": "07918e505c904c3220d3c78827c3982741dfa1df",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-384x384.png": "8b28d5d2327b1e553de0d7713a9a6ac4889884dd",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-512x512.png": "d283a60793b2463d185b2b4d264cfa85a8deccbd",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-72x72.png": "538cfc01d180325e807a3803ef90a6a08a183523",
+    "https://seduerey.github.io/M4.256-PEC5/assets/icons/icon-96x96.png": "0e438c96d39bc48400f9ccceeec5ac27416d526c",
+    "https://seduerey.github.io/M4.256-PEC5/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://seduerey.github.io/M4.256-PEC5/index.html": "18898cd7eca88af355ee009e6beffc895d897808",
+    "https://seduerey.github.io/M4.256-PEC5/main.c1ab0235b1bf64f495ec.js": "da86353da9cb8977d9bdaf6b7893b8c44bbe45ec",
+    "https://seduerey.github.io/M4.256-PEC5/manifest.webmanifest": "ce622a51608c510fb76fa2ffd587afed137734d3",
+    "https://seduerey.github.io/M4.256-PEC5/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
+    "https://seduerey.github.io/M4.256-PEC5/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://seduerey.github.io/M4.256-PEC5/styles.64c17303a3986e3c5a24.css": "1489ea36dff1ed8e80408b85d88911a397606953"
   },
   "navigationUrls": [
     {
